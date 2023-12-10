@@ -70,9 +70,9 @@ def get_emoji(choice):
     return emojis.get(choice, '')
 
 # Get the language choice from the user
-language = input("🌐 Choose a language (en/cz): ").lower()
+language = input("🌐 Choose a language (en/cz/ru): ").lower()
 
-if language not in ['en', 'cz']:
+if language not in ['en', 'cz', "ru"]:
     print("❌ Invalid language choice. Defaulting to English.")
     language = 'en'
 
