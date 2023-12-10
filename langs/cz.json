@@ -1,0 +1,10 @@
+{
+    "choose": "Vyberte kámen, papír nebo nůžky: ",
+    "invalid_choice": "Neplatná volba. Vyberte prosím kámen, papír nebo nůžky.",
+    "tie": "Remíza! 😐",
+    "you_win": "Vyhráváte! 🎉",
+    "computer_wins": "Počítač vyhrává! 😔",
+    "game_over": "Konec hry! Váš skóre: {player_score} {rock_emoji}, Skóre počítače: {computer_score} {scissors_emoji}",
+    "rounds_prompt": "Zadejte počet kol, která chcete hrát 🔢: "
+  }
+  
