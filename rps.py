@@ -58,6 +58,16 @@ def get_emoji(choice):
     }
     return emojis.get(choice, '')
 
+# Get the language choice from the user
+language = input("🌐 Choose a language (en/cz): ").lower()
+
+if language not in ['en', 'cz']:
+    print("❌ Invalid language choice. Defaulting to English.")
+    language = 'en'
+
+# Load language data
+language_data = load_language(f'lang/{language}.json')
+
 # Get the number of rounds from the player
 num_rounds = int(input(language_data["rounds_prompt"]))
 play_game(num_rounds, language_data)
