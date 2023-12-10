@@ -1,2 +1,3 @@
-# python-rps
-🤖 Rock, Paper Scissors game project
+# 🪨📃✂️ Game
+
+Small project for a rock, paper scissors game!
