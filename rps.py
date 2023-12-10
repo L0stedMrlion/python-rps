@@ -6,10 +6,21 @@ def load_language(file_path):
         return json.load(file)
 
 def get_user_choice(language_data):
+    valid_choices = set(['rock', 'paper', 'scissors'])
+
+    for key in language_data.keys():
+        if key in ['rock', 'paper', 'scissors']:
+            valid_choices.add(key)
+            variations = language_data[key]
+            if isinstance(variations, list):
+                valid_choices.update(variations)
+
     user_choice = input(language_data["choose"]).lower()
-    while user_choice not in ['rock', 'paper', 'scissors']:
+    
+    while user_choice not in valid_choices:
         print(language_data["invalid_choice"])
         user_choice = input(language_data["choose"]).lower()
+
     return user_choice
 
 def get_computer_choice():

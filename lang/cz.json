@@ -6,7 +6,7 @@
   "computer_wins": "Počítač vyhrává! 😔",
   "game_over": "Konec hry! Váš skóre: {player_score} {rock_emoji}, Skóre počítače: {computer_score} {scissors_emoji}",
   "rounds_prompt": "Zadejte počet kol, která chcete hrát 🔢: ",
-  "rock": "kámen",
-  "paper": "papír",
-  "scissors": "nůžky"
+  "rock": ["kámen", "kamen"] ,
+  "paper": ["papír", "papir"],
+  "scissors": ["nůžky", "nuzky"]
 }

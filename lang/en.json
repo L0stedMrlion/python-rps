@@ -5,7 +5,7 @@
   "you_win": "You win! 🎉",
   "computer_wins": "Computer wins! 😔",
   "game_over": "Game over! Your score: {player_score} {rock_emoji}, Computer score: {computer_score} {scissors_emoji}",
-  "rounds_prompt": "Enter the number of rounds you want to play 🔢: ",
+  "rounds_prompt": "🔢 Enter the number of rounds you want to play: ",
   "rock": "rock",
   "paper": "paper",
   "scissors": "scissors"
